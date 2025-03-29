@@ -3,8 +3,6 @@
 console.log("¡Estoy listo!");
 
 
-
-
 let hacker1 = "Juan";
 console.log("El nombre del conductor es " + hacker1);
 
@@ -24,14 +22,10 @@ if (hacker1.length > hacker2.length) {
 
 // Iteración 3: Loops
 
-let hacker1 = "Juan"; // Driver's name
 
 // Convert each character to uppercase and separate by spaces
 let spacedName = hacker1.toUpperCase().split('').join(' ');
 console.log(spacedName); // Outputs: "J U A N"
-
-
-let hacker2 = "Ana"; // Navigator's name
 
 // Reverse the order of characters
 
@@ -48,7 +42,8 @@ if (hacker1.localeCompare(hacker2) < 0) {
   }
 
 
-  //bonificacion
+  //bonificacion-
+  //Bono 1
 
   // 1. Guardar texto y generarlo como variable
 
@@ -58,10 +53,10 @@ if (hacker1.localeCompare(hacker2) < 0) {
 // 2. Contar el Número de Palabras en la Cadena.
 
 let wordCount = loremIpsumText.split(/\s+/).filter(Boolean).length;
-console.log(`The number of words is: ${wordCount}`);v
+
+console.log(`The number of words is: ${wordCount}`);
 
 // 3. Contar la Aparición de la Palabra "et".
-
 
 let etCount = (loremIpsumText.match(/\bet\b/g) || []).length;
 console.log(`The word "et" appears ${etCount} times.`);
